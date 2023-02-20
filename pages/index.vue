@@ -1,18 +1,13 @@
 <template>
   <div>
-    <navbar />
-    <main>
-      <div class="container">
-        <h1>nuxt</h1>
-      </div>
-    </main>
+    <TheNavogation />
   </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
-export default {
-  components: {Navbar},
-  name: 'IndexPage'
-}
+export default {}
 </script>
+
+
+<style>
+</style>
